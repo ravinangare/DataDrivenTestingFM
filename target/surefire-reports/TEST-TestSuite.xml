@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.972" tests="6" errors="0" skipped="2" failures="4">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Sharayu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.1.20211011-2139\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="D:\DataDrivenFM\DataDrivenTesting\EMBEDDED"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sharayu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="Sharayu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sharayu\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="D:\DataDrivenFM\DataDrivenTesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\DataDrivenFM\DataDrivenTesting"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-15.0.2/bin/server;C:/Program Files/Java/jdk-15.0.2/bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.8.5\bin;C:\Users\Sharayu\AppData\Local\Microsoft\WindowsApps;C:\Users\Sharayu\AppData\Roaming\npm;C:\Users\Sharayu\AppData\Local\GitHubDesktop\bin;;C:\Users\Sharayu\Dropbox\My PC (LAPTOP-IKS9SD1L)\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="classworlds.conf" value="D:\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2897301568787955541.tmp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="SetUp" classname="testcases.LoginTest" time="2.606">
+    <failure message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;LAPTOP-IKS9SD1L&apos;, ip: &apos;192.168.194.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00C00C83+1707139]&#10;	Ordinal0 [0x00B668F1+1075441]&#10;	Ordinal0 [0x00ADDFC9+516041]&#10;	Ordinal0 [0x00A6C70E+50958]&#10;	Ordinal0 [0x00A8BFD7+180183]&#10;	Ordinal0 [0x00A8BDDD+179677]&#10;	Ordinal0 [0x00A89D4B+171339]&#10;	Ordinal0 [0x00A71D4A+73034]&#10;	Ordinal0 [0x00A72DC0+77248]&#10;	Ordinal0 [0x00A72D59+77145]&#10;	Ordinal0 [0x00B7BB67+1162087]&#10;	GetHandleVerifier [0x00C9A966+508998]&#10;	GetHandleVerifier [0x00C9A6A4+508292]&#10;	GetHandleVerifier [0x00CAF7B7+594583]&#10;	GetHandleVerifier [0x00C9B1D6+511158]&#10;	Ordinal0 [0x00B7402C+1130540]&#10;	Ordinal0 [0x00B7D4CB+1168587]&#10;	Ordinal0 [0x00B7D633+1168947]&#10;	Ordinal0 [0x00B95B35+1268533]&#10;	BaseThreadInitThunk [0x76476739+25]&#10;	RtlGetFullPathName_UEx [0x77098FEF+1215]&#10;	RtlGetFullPathName_UEx [0x77098FBD+1165]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C00C83+1707139]
+	Ordinal0 [0x00B668F1+1075441]
+	Ordinal0 [0x00ADDFC9+516041]
+	Ordinal0 [0x00A6C70E+50958]
+	Ordinal0 [0x00A8BFD7+180183]
+	Ordinal0 [0x00A8BDDD+179677]
+	Ordinal0 [0x00A89D4B+171339]
+	Ordinal0 [0x00A71D4A+73034]
+	Ordinal0 [0x00A72DC0+77248]
+	Ordinal0 [0x00A72D59+77145]
+	Ordinal0 [0x00B7BB67+1162087]
+	GetHandleVerifier [0x00C9A966+508998]
+	GetHandleVerifier [0x00C9A6A4+508292]
+	GetHandleVerifier [0x00CAF7B7+594583]
+	GetHandleVerifier [0x00C9B1D6+511158]
+	Ordinal0 [0x00B7402C+1130540]
+	Ordinal0 [0x00B7D4CB+1168587]
+	Ordinal0 [0x00B7D633+1168947]
+	Ordinal0 [0x00B95B35+1268533]
+	BaseThreadInitThunk [0x76476739+25]
+	RtlGetFullPathName_UEx [0x77098FEF+1215]
+	RtlGetFullPathName_UEx [0x77098FBD+1165]
+
+</failure>
+    <system-err><![CDATA[log4j:ERROR setFile(null,false) call failed.
+java.io.FileNotFoundException: C:\Users\Moises\IdeaProjects\DataDrivenFramework\src\test\resources\logs\Selenium.log (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:234)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:155)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:207)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+	at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:648)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:514)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:580)
+	at org.apache.log4j.helpers.OptionConverter.selectAndConfigure(OptionConverter.java:526)
+	at org.apache.log4j.LogManager.<clinit>(LogManager.java:127)
+	at org.apache.log4j.Logger.getLogger(Logger.java:104)
+	at base.BaseTest.<clinit>(BaseTest.java:33)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
+	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:350)
+	at java.base/java.lang.Class.newInstance(Class.java:645)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.TestNG.addListeners(TestNG.java:949)
+	at org.testng.TestNG.initializeConfiguration(TestNG.java:912)
+	at org.testng.TestNG.initializeEverything(TestNG.java:996)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+log4j:ERROR setFile(null,false) call failed.
+java.io.FileNotFoundException: C:\Users\Moises\IdeaProjects\DataDrivenFramework\src\test\resources\logs\Application.log (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:234)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:155)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:207)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+	at org.apache.log4j.PropertyConfigurator.parseCatsAndRenderers(PropertyConfigurator.java:672)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:516)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:580)
+	at org.apache.log4j.helpers.OptionConverter.selectAndConfigure(OptionConverter.java:526)
+	at org.apache.log4j.LogManager.<clinit>(LogManager.java:127)
+	at org.apache.log4j.Logger.getLogger(Logger.java:104)
+	at base.BaseTest.<clinit>(BaseTest.java:33)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
+	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:350)
+	at java.base/java.lang.Class.newInstance(Class.java:645)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.TestNG.addListeners(TestNG.java:949)
+	at org.testng.TestNG.initializeConfiguration(TestNG.java:912)
+	at org.testng.TestNG.initializeEverything(TestNG.java:996)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 16253
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="LoginsAsManager" classname="testcases.LoginTest" time="0">
+    <skipped message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;LAPTOP-IKS9SD1L&apos;, ip: &apos;192.168.194.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00C00C83+1707139]&#10;	Ordinal0 [0x00B668F1+1075441]&#10;	Ordinal0 [0x00ADDFC9+516041]&#10;	Ordinal0 [0x00A6C70E+50958]&#10;	Ordinal0 [0x00A8BFD7+180183]&#10;	Ordinal0 [0x00A8BDDD+179677]&#10;	Ordinal0 [0x00A89D4B+171339]&#10;	Ordinal0 [0x00A71D4A+73034]&#10;	Ordinal0 [0x00A72DC0+77248]&#10;	Ordinal0 [0x00A72D59+77145]&#10;	Ordinal0 [0x00B7BB67+1162087]&#10;	GetHandleVerifier [0x00C9A966+508998]&#10;	GetHandleVerifier [0x00C9A6A4+508292]&#10;	GetHandleVerifier [0x00CAF7B7+594583]&#10;	GetHandleVerifier [0x00C9B1D6+511158]&#10;	Ordinal0 [0x00B7402C+1130540]&#10;	Ordinal0 [0x00B7D4CB+1168587]&#10;	Ordinal0 [0x00B7D633+1168947]&#10;	Ordinal0 [0x00B95B35+1268533]&#10;	BaseThreadInitThunk [0x76476739+25]&#10;	RtlGetFullPathName_UEx [0x77098FEF+1215]&#10;	RtlGetFullPathName_UEx [0x77098FBD+1165]&#10;"/>
+  </testcase>
+  <testcase name="LoginsAsManager" classname="testcases.LoginTest" time="2.682">
+    <failure message="Cannot invoke &quot;com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)&quot; because the return value of &quot;utilities.ExtentReports.ExtentTestManager.getTest()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)" because the return value of "utilities.ExtentReports.ExtentTestManager.getTest()" is null
+</failure>
+  </testcase>
+  <testcase name="SetUp" classname="testcases.addCustomerTest" time="3.437">
+    <failure message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;LAPTOP-IKS9SD1L&apos;, ip: &apos;192.168.194.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00C00C83+1707139]&#10;	Ordinal0 [0x00B668F1+1075441]&#10;	Ordinal0 [0x00ADDFC9+516041]&#10;	Ordinal0 [0x00A6C70E+50958]&#10;	Ordinal0 [0x00A8BFD7+180183]&#10;	Ordinal0 [0x00A8BDDD+179677]&#10;	Ordinal0 [0x00A89D4B+171339]&#10;	Ordinal0 [0x00A71D4A+73034]&#10;	Ordinal0 [0x00A72DC0+77248]&#10;	Ordinal0 [0x00A72D59+77145]&#10;	Ordinal0 [0x00B7BB67+1162087]&#10;	GetHandleVerifier [0x00C9A966+508998]&#10;	GetHandleVerifier [0x00C9A6A4+508292]&#10;	GetHandleVerifier [0x00CAF7B7+594583]&#10;	GetHandleVerifier [0x00C9B1D6+511158]&#10;	Ordinal0 [0x00B7402C+1130540]&#10;	Ordinal0 [0x00B7D4CB+1168587]&#10;	Ordinal0 [0x00B7D633+1168947]&#10;	Ordinal0 [0x00B95B35+1268533]&#10;	BaseThreadInitThunk [0x76476739+25]&#10;	RtlGetFullPathName_UEx [0x77098FEF+1215]&#10;	RtlGetFullPathName_UEx [0x77098FBD+1165]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C00C83+1707139]
+	Ordinal0 [0x00B668F1+1075441]
+	Ordinal0 [0x00ADDFC9+516041]
+	Ordinal0 [0x00A6C70E+50958]
+	Ordinal0 [0x00A8BFD7+180183]
+	Ordinal0 [0x00A8BDDD+179677]
+	Ordinal0 [0x00A89D4B+171339]
+	Ordinal0 [0x00A71D4A+73034]
+	Ordinal0 [0x00A72DC0+77248]
+	Ordinal0 [0x00A72D59+77145]
+	Ordinal0 [0x00B7BB67+1162087]
+	GetHandleVerifier [0x00C9A966+508998]
+	GetHandleVerifier [0x00C9A6A4+508292]
+	GetHandleVerifier [0x00CAF7B7+594583]
+	GetHandleVerifier [0x00C9B1D6+511158]
+	Ordinal0 [0x00B7402C+1130540]
+	Ordinal0 [0x00B7D4CB+1168587]
+	Ordinal0 [0x00B7D633+1168947]
+	Ordinal0 [0x00B95B35+1268533]
+	BaseThreadInitThunk [0x76476739+25]
+	RtlGetFullPathName_UEx [0x77098FEF+1215]
+	RtlGetFullPathName_UEx [0x77098FBD+1165]
+
+</failure>
+    <system-out><![CDATA[[TestNG-tests-1] INFO  devpinoyLogger  - Test LoginsAsManager failed
+[TestNG-tests-1] INFO  devpinoyLogger  - ERROR: java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)" because the return value of "utilities.ExtentReports.ExtentTestManager.getTest()" is null
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 24241
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="addCustomerTest" classname="testcases.addCustomerTest" time="0">
+    <skipped message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;LAPTOP-IKS9SD1L&apos;, ip: &apos;192.168.194.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00C00C83+1707139]&#10;	Ordinal0 [0x00B668F1+1075441]&#10;	Ordinal0 [0x00ADDFC9+516041]&#10;	Ordinal0 [0x00A6C70E+50958]&#10;	Ordinal0 [0x00A8BFD7+180183]&#10;	Ordinal0 [0x00A8BDDD+179677]&#10;	Ordinal0 [0x00A89D4B+171339]&#10;	Ordinal0 [0x00A71D4A+73034]&#10;	Ordinal0 [0x00A72DC0+77248]&#10;	Ordinal0 [0x00A72D59+77145]&#10;	Ordinal0 [0x00B7BB67+1162087]&#10;	GetHandleVerifier [0x00C9A966+508998]&#10;	GetHandleVerifier [0x00C9A6A4+508292]&#10;	GetHandleVerifier [0x00CAF7B7+594583]&#10;	GetHandleVerifier [0x00C9B1D6+511158]&#10;	Ordinal0 [0x00B7402C+1130540]&#10;	Ordinal0 [0x00B7D4CB+1168587]&#10;	Ordinal0 [0x00B7D633+1168947]&#10;	Ordinal0 [0x00B95B35+1268533]&#10;	BaseThreadInitThunk [0x76476739+25]&#10;	RtlGetFullPathName_UEx [0x77098FEF+1215]&#10;	RtlGetFullPathName_UEx [0x77098FBD+1165]&#10;"/>
+  </testcase>
+  <testcase name="addCustomerTest" classname="testcases.addCustomerTest" time="3.822">
+    <failure message="Cannot invoke &quot;com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)&quot; because the return value of &quot;utilities.ExtentReports.ExtentTestManager.getTest()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)" because the return value of "utilities.ExtentReports.ExtentTestManager.getTest()" is null
+</failure>
+  </testcase>
+</testsuite>
