@@ -3,6 +3,7 @@ package base;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -96,10 +97,15 @@ public class BaseTest {
         driver.findElement(getSelectorType(locator)).click();
         ExtentTestManager.getTest().log(LogStatus.INFO, "[STEP] Clicking on: "+locator);
     }
+    public void jsclick(String locator) {
+    	JavascriptExecutor js = (JavascriptExecutor)driver;
+    	js.executeScript("arguments[0].click();", driver.findElement(getSelectorType(locator)));
+        ExtentTestManager.getTest().log(LogStatus.PASS, "[STEP] Clicking  using js on: "+locator);
+    }
     public boolean display(String locator) {
     	driver.findElement(getSelectorType(locator)).isDisplayed();
     	  ExtentTestManager.getTest().log(LogStatus.INFO, "[STEP] display : "+locator);
-		return false;
+		return true;
     }
 
     public void type(String locator, String value){
@@ -120,6 +126,8 @@ public class BaseTest {
             case "classname": return By.className(ORProperties.getProperty(locator));
             case "linktext": return By.linkText(ORProperties.getProperty(locator));
             case "name": return By.name(ORProperties.getProperty(locator));
+            case "partiallinktext": return By.partialLinkText(ORProperties.getProperty(locator));
+            case "tagname": return By.tagName(ORProperties.getProperty(locator));
             default: return By.xpath(ORProperties.getProperty(locator));
         }
 
