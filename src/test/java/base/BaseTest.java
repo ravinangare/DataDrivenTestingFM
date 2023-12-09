@@ -105,7 +105,7 @@ public class BaseTest {
     public boolean display(String locator) {
     	driver.findElement(getSelectorType(locator)).isDisplayed();
     	  ExtentTestManager.getTest().log(LogStatus.INFO, "[STEP] display : "+locator);
-		return true;
+		return false;
     }
 
     public void type(String locator, String value){
